@@ -12,7 +12,7 @@ const App = () => {
         type="text"
         onChange={(e) => setName(e.target.value)}
       />
-        <p>{name ? `Hello, ${name}!` : ""}</p>
+        <p>{name ? `Hello ${name}!` : ""}</p>
     </>
   );}
 
